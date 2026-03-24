@@ -213,7 +213,7 @@ const sendError = (title: string, text: string, code: number) => {
 </html>`,
     {
       status: code,
-      headers: { "Content-Type": "text/html" },
+      headers: { "Content-Type": "text/html; charset=utf-8" },
     },
   );
 };
@@ -334,7 +334,7 @@ export default {
   </body>
 </html>`,
       {
-        headers: { "Content-Type": "text/html" },
+        headers: { "Content-Type": "text/html; charset=utf-8" },
       },
     );
   },
