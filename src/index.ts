@@ -157,7 +157,7 @@ const dateFixes: Record<string, string> = {
   "rd-132211": "2009-05-13T00:00:00.000Z",
 };
 
-const bypassCacheVersions = ["26.1"];
+const bypassCacheVersions = ["26.2-snapshot-1"];
 
 let cachedManifest: VersionManifest | null = null;
 let lastFetch: number = 0;
