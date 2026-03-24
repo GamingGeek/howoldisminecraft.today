@@ -1,0 +1,15 @@
+name = "howoldisminecraft-worker"
+main = "src/index.ts"
+compatibility_date = "2026-03-24"
+
+[[routes]]
+pattern = "howoldisminecraft.today"
+custom_domain = true
+
+[[routes]]
+pattern = "www.howoldisminecraft.today"
+custom_domain = true
+
+[observability]
+enabled = true
+
