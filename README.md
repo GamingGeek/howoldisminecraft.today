@@ -37,6 +37,8 @@ A Cloudflare Worker that tells you how old any version of Minecraft is today.
 
 ## Deployment
 
+The project is currently configured with two routes, `howoldisminecraft.today` & `www.howoldisminecraft.today` in the [wrangler.toml](wrangler.toml) file. You'll need to modify or remove these for deployment to Cloudflare Workers using wrangler
+
 ### Manual Deployment
 
 ```bash
